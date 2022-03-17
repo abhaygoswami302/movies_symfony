@@ -10,7 +10,7 @@ class ActorFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
-        $actor = new Actor();
+        $actor = new Actor(); 
         $actor->setName('Amrinder Gill');
         $manager->persist($actor);
 
